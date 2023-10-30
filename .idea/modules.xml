@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/betterHarvest.main.iml" filepath="$PROJECT_DIR$/.idea/modules/betterHarvest.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/betterHarvest.test.iml" filepath="$PROJECT_DIR$/.idea/modules/betterHarvest.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tk.chaoschaps.betterHarvest.main.iml" filepath="$PROJECT_DIR$/.idea/modules/tk.chaoschaps.betterHarvest.main.iml" />
+    </modules>
+  </component>
+</project>

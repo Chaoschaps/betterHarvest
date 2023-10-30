@@ -1,0 +1,8 @@
+name: betterHarvest
+version: '${version}'
+main: tk.chaoschaps.betterharvest.main.BetterHarvest
+description: Plugin that lets you harvest crops with a scythe.
+author: Chaoschaps
+api-version: '1.20'
+resources:
+  - textures/scythe.png
