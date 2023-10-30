@@ -42,11 +42,10 @@ public class Harvest  implements Listener {
                     curBlock = world.getBlockAt(location.getBlockX() + transpo, location.getBlockY(), location.getBlockZ());
 
                 }
-                if (curBlock.getBlockData() instanceof Ageable && crop.getAge() == crop.getMaximumAge() ) {
-                    System.out.println("Block is Crop");
+                if (curBlock.getBlockData() instanceof Ageable && ((Ageable) curBlock.getBlockData()).getAge() == ((Ageable) curBlock.getBlockData()).getMaximumAge()) {
+                    curBlock.breakNaturally();
                     curBlock.setType(cropType);
                     crop.setAge(0);
-                    curBlock.breakNaturally();
                     curBlock.setBlockData(crop);
                 }
             }
