@@ -1,4 +1,4 @@
-# bettterHarvest
+# betterHarvest
 
 **Paper 1.20.2**
 
